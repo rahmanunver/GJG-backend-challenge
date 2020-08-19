@@ -2,9 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser'); //Middleware
 
 //Import Routes
-const leaderboardRouter = require('..GJG-Backend-Coding-Challenge/routes/leaderboard-routes');
-const scoreRouter = require('../GJG-Backend-Coding-Challenge/routes/score-routes');
-const userRouter = require('../GJG-Backend-Coding-Challenge/routes/user-routes');
+const leaderboardRouter = require('./routes/leaderboard-routes');
+const scoreRouter = require('./routes/score-routes');
+const userRouter = require('./routes/user-routes');
 
 //Import error model
 const HttpError = require('./models/http-error');
