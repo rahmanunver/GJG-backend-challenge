@@ -32,7 +32,7 @@ app.use((error, req, res, next) => {
 	res.json({ message: error.message || 'An unknown error occurred!' });
 });
 
-//Start listening our port at http://localhost:5000
+//Start listening our port at process.env.PORT
 const server = app.listen(PORT);
 
 module.exports = server;
