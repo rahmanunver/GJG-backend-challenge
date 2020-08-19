@@ -1,5 +1,5 @@
 //Import Error model
-const HttpError = require('../GJG-Backend-Coding-Challenge/../models/http-error');
+const HttpError = require('../models/http-error');
 
 let LEADERBOARD = [
 	{

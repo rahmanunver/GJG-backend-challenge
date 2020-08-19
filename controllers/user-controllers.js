@@ -2,7 +2,7 @@ const { v4: uuid } = require('uuid'); //Using uuid package to assign uuid for ne
 const { validationResult } = require('express-validator'); //Using express-validator to validate the request.
 
 //Import Error model
-const HttpError = require('../GJG-Backend-Coding-Challenge/../models/http-error');
+const HttpError = require('../models/http-error');
 
 //Users array, will be used as user storage. Initial responses may include a single user, you may delete it.
 let USERS = [

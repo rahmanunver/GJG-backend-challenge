@@ -1,7 +1,7 @@
 const express = require('express');
 
 //Import controllers
-const leaderboardControllers = require('../GJG-Backend-Coding-Challenge/../controllers/leaderboard-controllers');
+const leaderboardControllers = require('../controllers/leaderboard-controllers');
 
 //Create route
 const router = express.Router();
