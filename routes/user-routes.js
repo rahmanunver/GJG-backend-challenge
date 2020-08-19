@@ -2,7 +2,7 @@ const express = require('express');
 const { check } = require('express-validator'); //Using express-validator to validate the request.
 
 //Import controller
-const userControllers = require('../controllers/user-controllers');
+const userControllers = require('../GJG-Backend-Coding-Challenge/../controllers/user-controllers');
 
 //Create route
 const router = express.Router();

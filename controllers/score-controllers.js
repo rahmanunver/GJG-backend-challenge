@@ -2,7 +2,7 @@ const { v4: uuid } = require('uuid'); //Using uuid package to assign uuid for ne
 const { validationResult } = require('express-validator'); //Using validationResult to validate the request.
 
 //Import Error model
-const HttpError = require('../models/http-error');
+const HttpError = require('../GJG-Backend-Coding-Challenge/../models/http-error');
 
 //Scores object array
 let SCORES = [
