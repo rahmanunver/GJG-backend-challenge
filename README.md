@@ -1,4 +1,4 @@
-# GJG-backend-challenge
+# REST API Dummy
 ### REST API Created using Node.js and Express.js
 
 #### Deployed on Heroku
